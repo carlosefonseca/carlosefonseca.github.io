@@ -31,7 +31,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: "Europe/Lisbon"
 
 include:
   - _pages
@@ -75,17 +75,17 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/carlosefonseca"
 
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/carlosefonseca"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/carlosefonseca"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/carlosefonseca"
+# footer:
+#   links:
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/carlosefonseca"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/carlosefonseca"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/carlosefonseca"
 
 defaults:
   # _posts
@@ -114,3 +114,5 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+repository: "carlosefonseca/carlosefonseca.github.io"
