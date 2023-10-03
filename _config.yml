@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Carlos Fonseca
+title: carlosefonseca
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -61,6 +61,7 @@ author:
   name   : "Carlos Fonseca"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
+  location: "Lisboa, Portugal"
   links:
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
@@ -75,18 +76,6 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/carlosefonseca"
 
-# footer:
-#   links:
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/carlosefonseca"
-    # - label: "GitHub"
-    #   icon: "fab fa-fw fa-github"
-    #   url: "https://github.com/carlosefonseca"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/carlosefonseca"
-
 defaults:
   # _posts
   - scope:
@@ -95,11 +84,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: false
-      comments: false
-      share: false
-      related: false
       classes: wide
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
@@ -116,3 +102,12 @@ tag_archive:
   path: /tags/
 
 repository: "carlosefonseca/carlosefonseca.github.io"
+
+social:
+  type: person
+  name: Carlos Fonseca
+  links:
+    - "https://twitter.com/carlosefonseca"
+    - "https://github.com/carlosefonseca"
+    - "https://instagram.com/carlosefonseca"
+    - "https://www.linkedin.com/in/carlosefonseca"
